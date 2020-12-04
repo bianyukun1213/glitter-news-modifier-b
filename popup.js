@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
         info_point = document.getElementById('info_point').value;
         chrome.windows.create({
             url: 'http://xih5.hljtv.com:80/exam/result.php?etiime=' + etiime,
-            width: 480,
-            height: 854,
+            width: 522,
+            height: 1160,
             type: 'popup'
         }, function (window) {
             tabJustCreated = window.tabs[0].id;
